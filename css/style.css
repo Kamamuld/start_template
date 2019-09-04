@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+	/*padding: 0px;
+	margin: 0px;*/
+}
+a {
+	text-decoration: none;
+	color: #f05a22;
+}
+.main {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.main_img {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.main_text {
+	margin-left: 40px;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.main_heading_1 {
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 35px;
+	font-weight: 700;
+}
+.main_heading_2
+{
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 30px;
+	font-weight: 400
+	margin-top: -50px;
+}
+.main_text_1 {
+	color: #000000;
+	max-width: 526px;
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+}
+.main_price {
+	color: #313131;
+	font-family: Tahoma;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 27px;
+}
+.main_button {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.button_1 {
+	border-radius: 5px;
+	color: #f05a22;
+	border: 2px solid #f05a22;
+	padding: 20px 30px;
+	color: #f05a22;
+	font-family: Tahoma;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.button_2 {
+	border-radius: 5px;
+	margin-left: 40px;
+	color: #f05a22;
+	border: 2px solid #f05a22;
+	padding: 20px 30px;
+	color: #f05a22;
+	font-family: Tahoma;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.shipping {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	
+	margin-top: 150px;
+
+	flex-direction: column;
+	/*justify-content: center;*/
+	-ms-align-items: center;
+	align-items: center;
+}
+.shipping_text {
+	/* Style for "Доставка и" */
+	font-family: Tahoma;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 27px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.shipping_icon {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+
+}
+.icon{
+	text-align: center;
+}
+.icon_flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+.icon_text {
+	text-align: center;
+}
